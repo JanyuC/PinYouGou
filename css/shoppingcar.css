@@ -1,0 +1,160 @@
+/* 全部商品 */
+
+.all-items {
+    margin-top: 25px;
+}
+
+.all-items em {
+    border-bottom: #ca2118 1px solid;
+    color: #ca2118;
+    padding: 0 0 5px 5px;
+}
+
+
+/* 购物车商品部分 */
+
+.shopping-table {
+    margin-top: 3px;
+    border-collapse: collapse;
+    border: none;
+}
+
+
+/* 头部栏 */
+
+.shopping-table thead {
+    height: 43px;
+    line-height: 43px;
+    background-color: #F3F3F3;
+}
+
+.shopping-table thead th {
+    width: 300px;
+    text-align: center;
+}
+
+
+/* 商品内容 */
+
+.current {
+    background-color: #FFF4E8;
+}
+
+.shopping-table tbody tr {
+    width: 100%;
+    height: 177px;
+    padding: 20px;
+    border: #F0F0F0 solid 0.5px;
+    border-top: black solid 1.5px;
+}
+
+.shopping-table tbody tr:nth-child(1) {
+    border-top: none;
+}
+
+.shopping-table tbody td {
+    text-align: center;
+}
+
+.item-content img {
+    float: left;
+    margin-right: 10px;
+}
+
+.item-content p {
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 300px;
+    height: 36px;
+}
+
+.sub,
+.add {
+    float: left;
+    width: 18px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border: solid 1px #666;
+    cursor: pointer;
+}
+
+.number {
+    margin-left: 68px;
+}
+
+.number input {
+    width: 46px;
+    height: 22px;
+    float: left;
+    text-align: center;
+    line-height: 22px;
+    background-color: transparent;
+    border-top: solid 1px #666;
+    border-bottom: solid 1px #666;
+}
+
+
+/* 购物车总计部分 */
+
+.total {
+    width: 100%;
+    height: 52px;
+    margin: 20px 0 45px 0;
+    border: #F0F0F0 1px solid;
+}
+
+.total div {
+    text-align: center;
+    line-height: 52px;
+    height: 52px;
+}
+
+.all-checked {
+    margin-left: 27px;
+}
+
+.remove-items {
+    margin: 0 50px 0 90px;
+    cursor: default;
+}
+
+.clear {
+    cursor: default;
+}
+
+.checked-items em,
+.total-money em {
+    color: #E2231A;
+    font-weight: 600;
+    margin: 0 5px 0 5px;
+}
+
+.total .total-money {
+    line-height: 49px;
+    margin: 0 10px 0 10px;
+}
+
+.total-money em {
+    font-size: 16px;
+}
+
+.buy {
+    height: 100%;
+    width: 90px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #E2231A;
+}
+
+.checked {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.rem {
+    cursor: default;
+}

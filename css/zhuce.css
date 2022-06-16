@@ -1,0 +1,106 @@
+/* logo */
+
+.zhuce-logo {
+    height: .5859rem;
+    border-bottom: solid .013rem #b1191a;
+}
+
+.zhuce-logo img {
+    width: 1.1133rem;
+    height: 100%;
+}
+
+
+/* 注册账号 */
+
+.zhuce-box {
+    height: .2279rem;
+    margin-top: .1302rem;
+    background-color: #ececec;
+}
+
+.zhuce-box p {
+    line-height: .2279rem;
+    font-size: .0911rem;
+}
+
+.zhuce-box p:first-child {
+    margin-left: .0651rem;
+}
+
+
+/* 表单 */
+
+.biaodan {
+    height: 3.125rem;
+}
+
+.biaodan ul {
+    display: inline-block;
+    margin: .3255rem .3255rem 0 2.4089rem;
+}
+
+.biaodan li {
+    height: .4753rem;
+}
+
+.biaodan input[type="text"],
+.biaodan input[type="password"] {
+    width: 1.8229rem;
+    height: .2409rem;
+    font-size: .1042rem;
+    margin-bottom: .1302rem;
+    border: solid .0065rem black;
+}
+
+.biaodan ul li label {
+    display: inline-block;
+    width: .5469rem;
+    height: .1302rem;
+    font-size: .0911rem;
+}
+
+
+/* 表单验证 */
+
+.reg {
+    display: inline-block;
+    width: 1.4974rem;
+    height: .2734rem;
+    font-size: .0911rem;
+    vertical-align: top;
+}
+
+.reg span {
+    display: inline-block;
+    width: .1302rem;
+    height: .1302rem;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: .1302rem .1302rem;
+}
+
+
+/* 协议 */
+
+.xieyi>a {
+    color: blue;
+}
+
+.xieyi input {
+    vertical-align: middle;
+    margin-top: -0.013rem;
+}
+
+.xieyi {
+    font-size: .1042rem;
+    margin-left: 2.7799rem;
+}
+
+.submit {
+    width: 1.3216rem;
+    height: .2279rem;
+    margin: .1953rem 0px 0px 2.7799rem;
+    color: white;
+    background-color: #b1191a;
+}

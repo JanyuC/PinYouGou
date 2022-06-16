@@ -1,0 +1,340 @@
+.w {
+    width: 7.8125rem;
+    margin: 0px auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+/* 头部 */
+
+header {
+    width: 100%;
+    margin-bottom: .161rem;
+}
+
+
+/* 头部用户栏 */
+
+
+/* 左边用户 */
+
+.user {
+    width: 100%;
+    height: .1953rem;
+    line-height: .1953rem;
+    background-color: #f1f1f1;
+}
+
+.user-box {
+    display: flex;
+    justify-content: space-between;
+    font-size: .0911rem;
+}
+
+.zhuce {
+    padding-left: .0716rem;
+    color: red;
+}
+
+
+/* 右边导航 */
+
+.header-nav li {
+    float: left;
+    padding-right: .0911rem;
+}
+
+.header-nav li {
+    position: relative;
+    padding-left: .0911rem;
+}
+
+.header-nav li::after {
+    content: "|";
+    position: absolute;
+    top: -0.0065rem;
+    right: 0;
+}
+
+.header-nav li img {
+    width: .1172rem;
+    height: .0326rem;
+    padding-left: .0586rem;
+}
+
+
+/* 下拉菜单 */
+
+.mynav,
+.webnav {
+    position: relative;
+}
+
+.mynavbox {
+    position: absolute;
+    top: .1953rem;
+    width: 80%;
+    font-size: .0911rem;
+    background-color: #e1e1e1;
+    display: none;
+}
+
+.navboxcurrent {
+    display: block;
+}
+
+.mynavbox span {
+    display: block;
+    line-height: .1628rem;
+    border-bottom: solid grey 1px;
+    text-align: center;
+}
+
+.mynavbox span:hover {
+    background-color: white;
+    box-shadow: .0326rem .0326rem .0651rem gray;
+}
+
+.mynavbox span:last-child {
+    border-bottom: none;
+}
+
+.webnav::after {
+    content: "";
+}
+
+.webnav,
+.search-nav li:last-child {
+    padding-right: 0;
+}
+
+
+/* log搜索购物栏 */
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    height: .599rem;
+    padding-top: .1736rem;
+}
+
+
+/* logo */
+
+.header-box img {
+    width: 1.1133rem;
+    height: .3971rem;
+}
+
+
+/* 搜索框 */
+
+.search-text {
+    width: 3.2552rem;
+    height: .2279rem;
+    border: .013rem solid #b1191a;
+}
+
+.search-button {
+    width: .5404rem;
+    height: .2279rem;
+    margin-left: -0.0651rem;
+    padding-top: .0065rem;
+    color: white;
+    background-color: #b1191a;
+}
+
+.search-nav {
+    display: flex;
+    margin-top: .0716rem;
+    text-align: center;
+}
+
+.search-nav li {
+    font-size: .0911rem;
+    flex: 1;
+}
+
+.red {
+    color: red;
+}
+
+.search-content {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 3.5026rem;
+    position: absolute;
+    z-index: 999;
+    background-color: #fff;
+    border: .013rem #eee solid;
+}
+
+.search-content li {
+    margin: .0977rem .0651rem;
+}
+
+
+/* 购物车 */
+
+.shoppingcar {
+    width: 1.1133rem;
+    height: .3971rem;
+    margin-top: -0.0326rem;
+}
+
+
+/*底部 */
+
+footer {
+    height: 2.7083rem;
+    background-color: #f5f5f5;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 第一行 */
+
+.foot-img {
+    display: flex;
+    border-bottom: solid .0065rem #ededed;
+}
+
+.foot-img>div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.foot-img img {
+    width: .3255rem;
+    height: .3255rem;
+    margin-right: .0651rem;
+}
+
+.foot-img h3 {
+    font-size: .1563rem;
+}
+
+.foot-img p {
+    font-size: .1042rem;
+}
+
+
+/* 第二行 */
+
+.foot-font {
+    display: flex;
+    height: 1.3281rem;
+    text-align: center;
+}
+
+.foot-font dl {
+    flex: 1;
+    margin-top: .1758rem;
+}
+
+.foot-font dt {
+    font-size: .1042rem;
+    margin-bottom: .0326rem;
+}
+
+.foot-font dd {
+    font-size: .0911rem;
+}
+
+.foot-font div {
+    margin-top: .1758rem;
+}
+
+.foot-font div p:first-child {
+    width: .5924rem;
+    font-size: .1042rem;
+    text-align: center;
+}
+
+.foot-font div img {
+    width: .6185rem;
+    height: .6185rem;
+}
+
+.foot-font div p:last-child {
+    font-size: .0781rem;
+    text-align: center;
+}
+
+
+/* 第三行 */
+
+.foot-footer {
+    display: flex;
+    flex-direction: column;
+    height: .6966rem;
+    border-top: solid .0065rem #ededed;
+}
+
+.foot-footer ul {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: .0977rem;
+}
+
+.foot-footer ul li {
+    flex: 1;
+    font-size: .0977rem;
+    border-right: solid 1px #5c5251;
+}
+
+.foot-footer ul li:last-child {
+    border-right: none;
+}
+
+.foot-footer>p {
+    /* flex: 1; */
+    font-size: .0977rem;
+    width: 4.8177rem;
+    height: .2604rem;
+    text-align: center;
+    margin: .0651rem 0 0 1.4779rem;
+}
+
+
+/* <!-- 模态框登录样式 --> */
+
+#myDLModal .modal-backdrop {
+    z-index: 0;
+}
+
+.login-user {
+    height: 60px;
+    margin: 20px 10px;
+}
+
+.login-user label {
+    float: left;
+    width: 170px;
+    height: 40px;
+    padding-right: 30px;
+    text-align: right;
+    line-height: 40px;
+}
+
+.login-user input {
+    float: left;
+    height: 40px;
+    width: 316px;
+    border: gray 1px solid;
+}

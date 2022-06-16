@@ -1,0 +1,164 @@
+/* 导航栏 */
+
+.nav-nav2 {
+    height: .2882rem;
+    border-bottom: .013rem solid #b1191a;
+}
+
+.nav-nav2 li {
+    float: left;
+    margin: 0px .1497rem 0px .1693rem;
+}
+
+.nav-nav2 li:nth-child(1),
+.nav-nav2 li:nth-child(2),
+.nav-nav2 li:nth-child(3) {
+    font-size: .1042rem;
+    font-weight: 600;
+}
+
+.nav-nav2 li a {
+    font-size: .0911rem;
+    line-height: .2734rem;
+}
+
+.more a {
+    margin-right: .0391rem;
+}
+
+
+/* 更多的下拉菜单 */
+
+.more {
+    position: relative;
+}
+
+.more_box {
+    position: absolute;
+    top: .2799rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: aqua;
+    display: none;
+}
+
+.more_box span {
+    display: block;
+    font-size: .0911rem;
+    border: .0065rem solid black;
+}
+
+.more_box span:hover {
+    background-color: white;
+    box-shadow: .0326rem .0326rem.0651rem gray;
+}
+
+.more_boxcurrent {
+    display: block;
+}
+
+
+/* 标题 */
+
+.biaoti {
+    height: .7813rem;
+    background-image: url("../images/背景.png");
+}
+
+.biaoti div {
+    color: red;
+    font-size: .1042rem;
+    font-weight: 600;
+}
+
+.biaoti img {
+    width: .2083rem;
+    height: .2083rem;
+    margin: .1758rem 0px .2018rem 3.1901rem;
+}
+
+.biaoti p {
+    font-size: .0911rem;
+    margin: -0.0846rem 0px 0px 2.8971rem;
+}
+
+
+/* 产品 */
+
+.chanpin {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chanpin li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 1.8815rem;
+    height: 2.9167rem;
+    margin: .0651rem .0911rem 0px 0px;
+}
+
+.chanpin li:nth-child(4n) {
+    margin-right: 0px;
+}
+
+.chanpin img {
+    width: 1.8815rem;
+    height: 1.8815rem;
+}
+
+.chanpin p {
+    font-size: .0911rem;
+    margin-bottom: .0586rem;
+}
+
+.money {
+    margin-bottom: .0326rem;
+}
+
+.money span {
+    margin: 0 .0651rem;
+    color: red;
+    font-size: .1302rem;
+    font-weight: 600;
+}
+
+.money del {
+    font-size: .0846rem;
+}
+
+.jindu {
+    font-size: .0977rem;
+}
+
+.jindutiao1 {
+    position: relative;
+    display: inline-block;
+    top: .0065rem;
+    width: .8138rem;
+    height: .0781rem;
+    border: .0065rem solid red;
+    border-radius: .0977rem;
+}
+
+.jindutiao2 {
+    position: absolute;
+    right: 13%;
+    width: 87%;
+    height: .0781rem;
+    margin-top: -0.0065rem;
+    border-radius: .0977rem;
+    background-color: red;
+}
+
+.qiang {
+    margin-top: .0651rem;
+    background-color: #b1191a;
+    line-height: .2604rem;
+    color: white;
+    text-align: center;
+    font-size: .1042rem;
+}
